@@ -1,4 +1,4 @@
-package indi.seue.yh.servlet;
+package indi.neus.yh.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;

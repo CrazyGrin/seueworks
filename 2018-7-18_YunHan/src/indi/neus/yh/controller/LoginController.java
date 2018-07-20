@@ -1,4 +1,4 @@
-package indi.seue.yh.controller;
+package indi.neus.yh.controller;
 
 public class LoginController {
 	
