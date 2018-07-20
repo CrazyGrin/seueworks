@@ -1,0 +1,10 @@
+div,
+input,
+ul,
+li
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 12px;
+
+    box-sizing: border-box;
+}
