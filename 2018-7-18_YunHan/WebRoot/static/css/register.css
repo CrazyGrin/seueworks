@@ -1,0 +1,26 @@
+.register_banner
+{
+    width: 200px;
+    height: 500px;
+    margin: 0 auto;
+}
+.register_input[type='text'],
+.register_input[type='password']
+{
+    width: 180px;
+    height: 25px;
+    margin: 10px 0;
+    padding: 0 10px;
+
+    border: 1px solid rgba(0,0,0,.5);
+    outline: none;
+}
+.register_input:hover
+{
+    border: 1px solid #00bdfd;
+    box-shadow: 0 0 1px 1px #00bdfd;
+}
+.register_button
+{
+    width: 60px;
+}
