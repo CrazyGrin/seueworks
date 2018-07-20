@@ -5,21 +5,21 @@
 	<title>Document</title>
 	<link href="https://cdn.bootcss.com/normalize/8.0.0/normalize.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="static/css/common.css">
-	<link rel="stylesheet" href="static/css/login.css">
-	<link rel="stylesheet" href="static/js/login.js">
+	<link rel="stylesheet" href="static/css/register.css">
+	<script src="static/js/common.js"></script>
+	<script src="static/js/register.js"></script>
 </head>
 <body>
-	<form class="login_banner" action="RegisterServlet" method="POST">
-		<input class="login_input" type="text" name="username" placeholder="账户名"><br>
-		<input class="login_input" type="password" name="password" placeholder="请输入密码"><br>
-		<input class="login_input" type="text" name="email" placeholder="请输入邮箱"><br>
-		<input class="login_input" type="checkbox" name="hobby" value="sing">唱歌
-		<input class="login_input" type="checkbox" name="hobby" value="dance">跳舞<br>
-		<input class="login_input" type="checkbox" name="hobby" value="badminton">羽毛球
-		<input class="login_input" type="checkbox" name="hobby" value="swim">游泳
-		<input class="login_input" type="submit" style="display: none;">
-
-		<button></button>
+	<form class="register_banner" action="RegisterServlet" method="POST">
+		<input class="register_input" type="text" name="username" placeholder="账户名"><br>
+		<input class="register_input" type="password" name="password" placeholder="请输入密码"><br>
+		<input class="register_input" type="text" name="email" placeholder="请输入邮箱"><br>
+		<input class="register_input" type="checkbox" name="hobby" value="sing">唱歌
+		<input class="register_input" type="checkbox" name="hobby" value="dance">跳舞<br>
+		<input class="register_input" type="checkbox" name="hobby" value="badminton">羽毛球
+		<input class="register_input" type="checkbox" name="hobby" value="swim">游泳
+		<input class="register_input" type="submit" style="display: none;"><br>
+		<button class="register_button">注册</button>
 	</form>
 </body>
 </html>
